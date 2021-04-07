@@ -11,6 +11,11 @@
 		10C36C14261CC04F00A4E1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36C13261CC04F00A4E1EC /* ContentView.swift */; };
 		10C36C16261CC05200A4E1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C36C15261CC05200A4E1EC /* Assets.xcassets */; };
 		10C36C19261CC05200A4E1EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C36C18261CC05200A4E1EC /* Preview Assets.xcassets */; };
+		10C36C23261CC20700A4E1EC /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C36C21261CC20700A4E1EC /* locations.json */; };
+		10C36C24261CC20700A4E1EC /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C36C22261CC20700A4E1EC /* tips.json */; };
+		10C36C2A261D1FF700A4E1EC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36C29261D1FF700A4E1EC /* Location.swift */; };
+		10C36C2D261D24CD00A4E1EC /* locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36C2C261D24CD00A4E1EC /* locations.swift */; };
+		10C36C34261D31CD00A4E1EC /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36C33261D31CD00A4E1EC /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		10C36C15261CC05200A4E1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C36C18261CC05200A4E1EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10C36C1A261CC05200A4E1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C36C21261CC20700A4E1EC /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../../Downloads/Assets/locations.json; sourceTree = "<group>"; };
+		10C36C22261CC20700A4E1EC /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tips.json; path = ../../../../Downloads/Assets/tips.json; sourceTree = "<group>"; };
+		10C36C29261D1FF700A4E1EC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		10C36C2C261D24CD00A4E1EC /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
+		10C36C33261D31CD00A4E1EC /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 				10C36C11261CC04F00A4E1EC /* Travel_AppApp.swift */,
 				10C36C13261CC04F00A4E1EC /* ContentView.swift */,
 				10C36C15261CC05200A4E1EC /* Assets.xcassets */,
+				10C36C21261CC20700A4E1EC /* locations.json */,
+				10C36C22261CC20700A4E1EC /* tips.json */,
 				10C36C1A261CC05200A4E1EC /* Info.plist */,
 				10C36C17261CC05200A4E1EC /* Preview Content */,
+				10C36C33261D31CD00A4E1EC /* WorldView.swift */,
+				10C36C29261D1FF700A4E1EC /* Location.swift */,
+				10C36C2C261D24CD00A4E1EC /* locations.swift */,
 			);
 			path = "Travel App";
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10C36C19261CC05200A4E1EC /* Preview Assets.xcassets in Resources */,
+				10C36C24261CC20700A4E1EC /* tips.json in Resources */,
+				10C36C23261CC20700A4E1EC /* locations.json in Resources */,
 				10C36C16261CC05200A4E1EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10C36C14261CC04F00A4E1EC /* ContentView.swift in Sources */,
+				10C36C2D261D24CD00A4E1EC /* locations.swift in Sources */,
+				10C36C2A261D1FF700A4E1EC /* Location.swift in Sources */,
 				10C36C12261CC04F00A4E1EC /* Travel_AppApp.swift in Sources */,
+				10C36C34261D31CD00A4E1EC /* WorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
