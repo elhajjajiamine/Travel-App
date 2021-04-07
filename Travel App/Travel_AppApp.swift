@@ -12,8 +12,11 @@ struct Travel_AppApp: App {
     var locations = Locations()
     var body: some Scene {
         WindowGroup {
-            ContentView(location: locations.primary)
-                .environmentObject(locations)
+                       
+                                ContentView(location: locations.primary)
+                           
+                        .environmentObject(locations)
+
         }
     }
 }

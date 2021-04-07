@@ -20,8 +20,9 @@ struct WorldView: View {
                     destination: ContentView(location: location)){
                     Image(location.country)
                         .resizable()
+                        .aspectRatio(contentMode: .fill)
                         .cornerRadius(10)
-                        .frame(width:80, height:80)
+                        .frame(width:50, height:50)
                         .shadow(radius:3)
 
                 }

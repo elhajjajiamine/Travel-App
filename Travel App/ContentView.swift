@@ -11,7 +11,6 @@ struct ContentView: View {
      @StateObject var locations = Locations()
      @State private var isExpanded: Bool = false
      let location : Location
-     @State private var mapSheet : Bool = false
 
     var body: some View {
         NavigationView{
@@ -63,14 +62,18 @@ struct ContentView: View {
                                     .foregroundColor(.white)
                                     .padding(.top)
                                 Button(action: {
-                                        mapSheet.toggle()                            }, label: {
-                                    HStack{
-                                    Image(systemName: "airplane.circle.fill")
-                                        .font(.largeTitle)
-                                    Text("Discover")
-                                        .font(.title)
+                                    print("airplane Button Click")
+                           }, label: {
+                            NavigationLink(destination: WorldView()) {
+                                HStack{
+                                Image(systemName: "airplane.circle.fill")
+                                    .font(.largeTitle)
+                                Text("Discover")
+                                    .font(.title)
 
-                                    }.padding()
+                                }.padding()
+                                 }
+                                   
                                 })
                                 
                             } else {
@@ -98,9 +101,7 @@ struct ContentView: View {
                 }
 
             }
-            .sheet(isPresented: $mapSheet) {
-                WorldView()
-            }
+            .navigationBarHidden(true)
                 .navigationTitle("Discover")
         }
     }
