@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103720F8261E04C6006C4128 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103720F7261E04C6006C4128 /* VideoPlayerView.swift */; };
 		10C36C12261CC04F00A4E1EC /* Travel_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36C11261CC04F00A4E1EC /* Travel_AppApp.swift */; };
 		10C36C14261CC04F00A4E1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36C13261CC04F00A4E1EC /* ContentView.swift */; };
 		10C36C16261CC05200A4E1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C36C15261CC05200A4E1EC /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103720F7261E04C6006C4128 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		10C36C0E261CC04F00A4E1EC /* Travel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C36C11261CC04F00A4E1EC /* Travel_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_AppApp.swift; sourceTree = "<group>"; };
 		10C36C13261CC04F00A4E1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				10C36C17261CC05200A4E1EC /* Preview Content */,
 				10C36C33261D31CD00A4E1EC /* WorldView.swift */,
 				10C36C29261D1FF700A4E1EC /* Location.swift */,
+				103720F7261E04C6006C4128 /* VideoPlayerView.swift */,
 				10C36C2C261D24CD00A4E1EC /* locations.swift */,
 			);
 			path = "Travel App";
@@ -160,6 +163,7 @@
 				10C36C2A261D1FF700A4E1EC /* Location.swift in Sources */,
 				10C36C12261CC04F00A4E1EC /* Travel_AppApp.swift in Sources */,
 				10C36C34261D31CD00A4E1EC /* WorldView.swift in Sources */,
+				103720F8261E04C6006C4128 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,8 @@ struct ContentView: View {
      @StateObject var locations = Locations()
      @State private var isExpanded: Bool = false
      let location : Location
+    @Environment(\.openURL) var openURL
+
 
     var body: some View {
         NavigationView{
@@ -70,12 +72,32 @@ struct ContentView: View {
                                     .font(.largeTitle)
                                 Text("Discover")
                                     .font(.title)
-
+                                    
+                               
                                 }.padding()
                                  }
                                    
                                 })
+                                Button(action: {
+                                    openURL(URL(string: location.Link)!)
+                           }, label: {
+                       
+                                HStack{
+                                Image(systemName: "video.circle.fill")
+                                    .font(.largeTitle)
+                                Text("Video")
+                                    .font(.title)
+                                    
+                               
+                                }.padding()
+                                 
+                                   
+                                })
+
                                 
+                                
+
+
                             } else {
                                 
                             }
@@ -102,7 +124,6 @@ struct ContentView: View {
 
             }
             .navigationBarHidden(true)
-                .navigationTitle("Discover")
         }
     }
 }
